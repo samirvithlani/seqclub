@@ -2,7 +2,30 @@ POST http://localhost:3000/employee
 Content-Type: application/json
 
 {
-    "name":"samir",
-    "email":"samir@gmail.com",
+    "name":"sraj",
+    "email":"raj@gmail.com",
     "age":20
 }
+####
+GET http://localhost:3000/employee
+
+###
+GET http://localhost:3000/employee/1
+
+###
+
+PUT http://localhost:3000/employee/1
+
+Content-Type: application/json
+{
+    "name":"jay",
+    "email":"jay@gmail.com",
+    "age":25
+}
+
+###
+DELETE http://localhost:3000/employee/1
+
+###
+
+DELETE http://localhost:3000/employee/byname/sraj

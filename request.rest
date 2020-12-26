@@ -29,3 +29,9 @@ DELETE http://localhost:3000/employee/1
 ###
 
 DELETE http://localhost:3000/employee/byname/sraj
+
+###
+GET http://localhost:3000/dummy
+
+###
+GET http://localhost:3000/dummy/corona

@@ -35,3 +35,15 @@ GET http://localhost:3000/dummy
 
 ###
 GET http://localhost:3000/dummy/corona
+
+###
+GET http://localhost:3000/dummy/create
+
+###
+GET http://localhost:3000/dummy/getuser
+
+###
+GET http://localhost:3000/dummy/postuser
+
+###
+GET http://localhost:3000/dummy/deleteuser
